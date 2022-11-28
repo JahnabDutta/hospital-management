@@ -90,6 +90,8 @@ class Diagnosis(models.Model):
     diagnosis = models.CharField(max_length=1000, null = True)
     date = models.DateField()
     remark = models.CharField(max_length=1000, null = True)
+    dr_code = models.ForeignKey(Doctor, on_delete=models.CASCADE, null = True, blank = True)
+    dr_name = models.CharField(max_length=100,null = True)
     other = models.CharField(max_length=1000, null = True)
 
     def __str__(self):
