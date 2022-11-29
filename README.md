@@ -70,7 +70,6 @@ Upon prompt, enter the commands to view the simulation in action.
 ## Contributors
 1. Jahnab Dutta (B20CS091)
 2. Nitya Anand Shah (B20CS039)
-3. Niharika Manhar (B20CS038)
 
 
 
